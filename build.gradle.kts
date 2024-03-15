@@ -4,6 +4,7 @@ plugins {
     id("com.diffplug.spotless") version "6.12.0"
     id("org.springframework.boot") version "2.7.6"
     id("org.domaframework.doma.compile") version "2.0.0"
+    id("war")
 }
 
 apply(plugin = "io.spring.dependency-management")
